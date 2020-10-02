@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import "./style.css";
+import "./style.css";
+import Navbar from "../../components/navbar";
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function About() {
     return (
+        <>
+        {Navbar}
         <div className="row row-cols-sm-2">
             <div id="aboutMeContainer" className="container w-75 border">
                 <div className="row">
@@ -25,6 +28,7 @@ function About() {
                 </div>
             </div>
         </div>
+        </>
     /* <Link
       to="/"
       classNameName={

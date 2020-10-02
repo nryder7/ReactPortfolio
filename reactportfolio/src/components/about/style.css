@@ -1,0 +1,23 @@
+body {
+
+    /* background-image: url('Assets/circles-light.png'); */
+    background-image: url('../../Assets/tweed_@2X.png');
+    opacity: 0.95;
+    /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
+    that's where to get'em.*/
+}
+
+#aboutMeContainer {
+    margin-top: 30px;
+    padding: 20px;
+    background-image: url('../../Assets/dust_scratches.png');
+}
+
+#aboutMeText {
+    text-align:left;
+}
+ 
+#contactMeContainer {
+    margin-top: 40px;
+    background-image: url('../../Assets/dust_scratches.png');
+}

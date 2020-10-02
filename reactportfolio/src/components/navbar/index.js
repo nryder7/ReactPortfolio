@@ -14,28 +14,44 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item ">
-            <a className="nav-link" href="portfolio.html">Portfolio</a>
+            <Link
+              to="/portfolio"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Portfolio
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="contact.html">Contact<span className="sr-only">(current)</span></a>
+            <Link
+              to="/contact"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Contact
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="index.html">About</a>
+            <Link
+              to="/about"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              About
+            </Link>
           </li>
         </ul>
       </div>
     </nav>
-    /* <Link
-      to="/"
-      classNameName={
-        window.location.pathname === "/" || window.location.pathname === "/home"
-          ? "nav-link active"
-          : "nav-link"
-      }
-    >
-      Home
-    </Link> */
-
   );
 }
 
