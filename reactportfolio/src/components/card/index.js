@@ -3,18 +3,17 @@ import { Link } from "react-router-dom";
 // import "./style.css";
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
-function Card() {
+function Card(props) {
     return (
         <div>
             <div className="col mb-4">
                 <div className="card border">
                     <h5 className="card-title">
-                        <a href="https://nryder7.github.io/PasswordGenerator/" target="_blank">Password
-                                Generator</a>
+                        <a href={props.href1} target="_blank">{props.name}</a>
                     </h5>
-                    <img src="Assets/password.png" className="card-img-top" alt="Password Generator" />
+                    <img src={props.imgsrc} className="card-img-top" alt={props.name} />
                     <div className="card-body">
-                        <a href="https://github.com/nryder7/PasswordGenerator" target="_blank">GitHub Repository</a>
+                        <a href={props.href2} target="_blank">GitHub Repository</a>
                     </div>
                 </div>
             </div>
