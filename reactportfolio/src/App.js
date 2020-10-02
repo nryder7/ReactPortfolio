@@ -4,7 +4,8 @@ import Navbar from "./components/navbar";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
-// import Footer from "./components/Footer";
+import Footer from "./components/footer";
+import Wrapper from "./components/wrapper";
 
 
 
@@ -13,11 +14,13 @@ function App() {
     <Router>
       <div>
           <Navbar />
-          <Route exact path="/" />
+          <Wrapper>
+          <Route exact path="/" component={Portfolio} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-        {/* <Footer /> */}
+          </Wrapper>
+        <Footer />
       </div>
     </Router>
   );

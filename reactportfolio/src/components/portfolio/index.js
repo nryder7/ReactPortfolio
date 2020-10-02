@@ -8,7 +8,7 @@ function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mw-100">
                 {projects.map(project => (
                     <Card
                         key={project.id}

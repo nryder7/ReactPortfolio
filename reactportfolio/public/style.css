@@ -1,17 +1,8 @@
-/* nav {
-    background-color: #30868633;
-
-} */
-
-/* body.port {
-
-    background-image: url('Assets/circles-light.png'); 
-    background-image: url('Assets/dust_scratches.png');
-    opacity: 0.95;
-     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
-    that's where to get'em. *
-} */
-
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
 
 h1 {
     font-size: 2.8rem;
@@ -78,3 +69,9 @@ p.card-title {
 .resume {
     max-width: 100%;
 }
+
+body {
+    margin:0;
+    padding-bottom:30px;
+    height:100%;
+ }

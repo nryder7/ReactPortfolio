@@ -16,8 +16,8 @@ function About() {
                     </div>
                     <div className="row">
                         <div className="col">
-                            {/* <img id="image" src="Assets/headshot.png" alt="Head Shot"
-                                size="max-height:150px; max-width: 150px" className="img-thumbnail" /> */}
+                            <img id="image" src="Assets/headshot.png" alt="Head Shot"
+                                size="max-height:150px; max-width: 150px" className="img-thumbnail" />
                             <p id="aboutMeText">
                                 I live in Charlotte, NC and I am currently enrolled in the UNC Charlotte Coding Bootcamp for web development. I have 7 years of experience in the financial industry and passed the
                                 FINRA series 7, 9, 10, & 66 licensing exams. I recently worked for Wells Fargo Advisors as a Regional Supervisor
